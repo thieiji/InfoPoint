@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<htm lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>InfoPoint</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">SOBRE NÓS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTATO</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Contato</h1>
+    </section>
+    
+    
+<!------- Contato ------->
+
+    
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.091751382377!2d-45.42848392382341!3d-23.636884978747954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cd631551d2d585%3A0xbe6efd4b81fb3cd0!2sInstituto%20Federal%20de%20Educa%C3%A7%C3%A3o%2C%20Ci%C3%AAncia%20e%20Tecnologia%20de%20S%C3%A3o%20Paulo%20-%20IFSP%20C%C3%A2mpus%20Caraguatatuba!5e0!3m2!1spt-BR!2sbr!4v1733711421694!5m2!1spt-BR!2sbr" width="720" height="445" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    
+    <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <span>
+                            <h5>Av. Bahia, 1739 - Indaiá.</h5>
+                            <p>Caraguatatuba - SP.</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <span>
+                            <h5>(12) 98850-9089</h5>
+                            <p>Atendemos: Segunda - Sexta.</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope-o"></i>
+                        <span>
+                            <h5>contato@infopoint.com.br</h5>
+                            <p>Entre em contato conosco através desse e-mail.</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="contact-col">
+                    <input type="text" name="name" placeholder="Insira seu nome:" required>
+                    <input type="email" name="email" placeholder="Insira seu e-mail:" required>
+                    <input type="text" name="subject" placeholder="Insira o assunto:" required>
+                    <textarea rows="8" name="message" placeholder="Menssagem:" required></textarea>
+                    <a href="contact.html"><button type="submit" class="hero-btn red-btn">Enviar</button></a>
+                    </form> 
+                </div>
+            </div>
+    </section>
+    
+<!-------- Footer ---------->
+
+<section class="footer">
+    <p>InfoPoint - © Copyright - Todos os direitos reservados</p>
+    <div class="icons">
+        <a href="https://pt-br.facebook.com/"><i class="fa fa-facebook"></i></a>
+        <a href="https://x.com/home"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/?hl=pt-br"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.youtube.com/results?search_query=document%C3%A1rio+mudan%C3%A7as+clim%C3%A1ticas+"><i class="fa fa-youtube"></i><a>
+        
+    </div>
+
+<!---- Menu ---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<htm lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>InfoPoint</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">SOBRE NÓS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTATO</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+            <h1>Sobre Nós</h1>
+    </section>
+    
+    
+<!------- Sobre Nós -------->
+    
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Criação:</h1>     
+            <p>Nosso objetivo foi criar uma plataforma que centralizasse esses dados, tornando mais fácil para todos entenderem os impactos ambientais e adotarem ações práticas. Inspirados pela urgência das questões climáticas globais, decidimos fazer a diferença conectando conhecimento e ação.</p>
+            <h1>Propósito:</h1>   
+            <p>Nosso propósito é informar e inspirar. Queremos empoderar pessoas, comunidades e organizações com as ferramentas e o conhecimento necessários para enfrentar os desafios das mudanças climáticas. <br><br> Acreditamos que, ao disseminar informações claras e atualizadas, podemos contribuir para um futuro mais sustentável e equilibrado para todos.</p>
+            <h1>Logo:</h1>
+            <p>Nossa logo apresenta um ponto desconstruído, formado por várias camadas de tons de azul. Essa construção simboliza a complexidade das mudanças climáticas, onde cada camada representa um aspecto diferente do impacto ambiental, como o clima, os oceanos e a biodiversidade. <br><br> A desconstrução do ponto também sugere a necessidade de repensarmos as soluções para o futuro, abordando as questões climáticas de forma integrada e multidisciplinar. <br><br> O nome “Infopoint” reflete a ideia de um centro de informações e reflexões sobre como podemos atuar para minimizar esses impactos.</p>
+            <a href="index.html" class="hero-btn red-btn">VOLTAR</a>
+        </div>
+        <div class="about-col">
+            <img src="images/ponto.png">
+        </div>
+    </div>    
+</section>
+    
+<!-------- Footer ---------->
+
+<section class="footer">
+    <p>InfoPoint - © Copyright - Todos os direitos reservados</p>
+    <div class="icons">
+        <a href="https://pt-br.facebook.com/"><i class="fa fa-facebook"></i></a>
+        <a href="https://x.com/home"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/?hl=pt-br"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.youtube.com/results?search_query=document%C3%A1rio+mudan%C3%A7as+clim%C3%A1ticas+"><i class="fa fa-youtube"></i><a>
+        
+    </div>
+  
+<!----Menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
